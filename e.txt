@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Passionate FrontEnd Web Developer showcasing a diverse portfolio to discover my growth,creativity and hands on experience with HTML,CSS and JavaScript">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+          <h1>Sujatha</h1>
+          <p><i><span class="icon">&#128231;</span>  abcd@gmail.com</i></p>
+          <p><i><span class="icon">&#128222;</span>  +1234567890</i></p>
+
+    </div>
+    <div class="right-section">
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#recommendation">Recommendation</a>
+        
+    </nav>
+    </div>   
+</div>
+<section id="about">
+    <div class="image">
+       <img src="img2.jpeg" alt="Image" height="350" width="350" loading="lazy">
+    </div> 
+       <div class="text">
+       
+        <h1>Hi,I am Sujatha! &#x1F44B;</h1>
+        <p class="center">I am a Passionate and creative Full Stack Developer with a keen interest in Website Development.I have 3 years of  Experience.Throughout my carrier, I had the opportunity to Collaborate on a diverse projects,allowing me to develop a strong foundation in Full Stack Development and I am excited to leverage my skills and experiences to contribute to innovative and impactful projects.</p>
+     
+    </div>
+</section>
+
+<div class="clear"></div>
+
+<div id="skills"></div>
+<div class="skill"><h1>Skills</h1></div>
+
+<section class="skills-box">
+    
+    <div class="logo">
+        <img src="icons8-html-48.png" alt="HTML Logo">
+        <p class="tp">HTML</p>
+        <p>2 years  Experience</p>
+        
+
+    </div>
+</section> 
+</div>
+<section class="skills-box">
+    
+    <div class="logo">
+        <img src="icons8-css-48.png" alt="CSS Logo" >
+        <p class="tp">CSS</p>
+        <p>2 years  Experience</p>
+        
+
+    </div>
+</section> 
+</div>
+<section class="skills-box">
+    
+    <div class="logo">
+        <img src="icons8-angularjs-48.png" alt="Java Logo" >
+        <p class="tp">Angular JS</p>
+        <p>3 years  Experience</p>
+        
+
+    </div>
+</section> 
+
+</div>
+<section class="skills-box">
+    
+    <div class="logo">
+        <img src="icons8-bootstrap-48.png" alt="BootStrap Logo" >
+        <p class="tp">BootStrap</p>
+        <p>2 years  Experience</p>
+        
+
+    </div>
+</section> 
+</div>
+<section class="skills-box">
+    
+    <div class="logo">
+        <img src="icons8-python-50.png" alt="Angular JS Logo" >
+        <p class="tp">python</p>
+        <p>3 years  Experience</p>
+        
+
+    </div>
+</section> 
+<section class="skills-box">
+    
+    <div class="logo">
+        <img src="icons8-ruby-50.png" alt="Ruby Logo">
+        <p class="tp">Ruby</p>
+        <p>1 years  Experience</p>
+        
+
+    </div>
+</section> 
+<section class="skills-box">
+    
+    <div class="logo">
+        <img src="icons8-typescript-50.png" alt="TypeScript  logo ">
+        <p class="tp">TypeScript</p>
+        <p>3 years  Experience</p>
+        
+
+    </div>
+</section> 
+</div>
+
+<section id="projects"></section>
+<div class="pro">
+    <h1>Projects</h1>
+    <h2>E-Commerce Website</h2>
+    <ul>
+    <li>Created a fully functional e-commerce platform with product listings,cart functionality,and secure checkout.</li>
+    </ul>
+    <hr>
+    <h2>Weather App</h2>
+    <ul>
+
+        <li>Built a weather application that provides real-time weather information based on user location. </li>
+    </ul>
+    <hr>
+    <h2>Expense Tracker</h2>
+    <ul>
+        <li>Developed a Financial tool to track and categorize expenses for better budget.</li>
+    </ul>
+    <hr>
+    <h2>Event planner</h2>
+    <ul>
+        <li>Designed a event planning tool for organising and managing various events seamlessly.</li>
+    </ul>
+    
+</div>
+<section id="recommendation"></section>
+<h1 class="first">Recommandations</h1>
+<p class="rec">
+    
+    Sujatha's exceptional problem-solving skills have been a key asset to our projects, consistently navigating complex coding challenges with precision. As an effective team player, her collaborative approach has fostered a positive and harmonious work environment among team members. 
+</p>
+<p class="rec">
+    Sujatha brings innovative thinking to her projects, introducing creative solutions that enhance overall efficiency and elevate user experiences. Her adaptability as a learner ensures she stays abreast of the latest technologies, keeping our projects at the forefront of industry advancements.    
+</p>
+<p class="rec">
+    Sujatha consistently goes beyond her role, proactively contributing ideas and support to the team, dynamic work atmosphere.Known for her meticulous planning, She maps out project timelines and requirements, providing clarity and structure that contribute to successful project execution.
+</p>
+<p class="rec">
+     As a adaptable learner,Sujatha quickly grasped new technologies and methodologies,ensuring our projects remained at  the forefront of industry advancements.Her exceptional project management skills ensured the seamless execution of tasks,demonstrating an ability to meet project milestones consistently.    
+</p>
+<div id="popup" class="pop">
+    <p>Thank you for your recommendation.</p>
+    <button onclick="closePopup()">OK</button>
+</div>
+
+
+<div class="second">
+<h2>Leave a Recommendation</h2>
+ 
+    <input type="text" class="empty-box" placeholder="Name (optional)">
+    
+
+    <br>
+
+    <label for="message"></label>
+    <div class="recommendation-container"></div>
+    <p>
+        <textarea name="message" id="recommendationText" cols="95" rows="10" placeholder="Message"></textarea>
+    </p>
+    <button onclick="submitRecommendation()">Submit</button>
+   
+
+</div>
+<a href="#" class="scroll-to-top">&#8593</a>
+<br>
+<br>
+<br>
+<hr>
+
+
+</body>
+</html>
